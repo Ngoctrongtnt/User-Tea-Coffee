@@ -1,0 +1,43 @@
+.profile-user {
+  border: 1px solid black;
+}
+.profile-info {
+  border: 1px solid black;
+}
+
+span.back-admin-user {
+  border: 1px solid #10688a;
+  color: #10688a;
+  padding: 3px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #10688a;
+    color: white;
+  }
+}
+.rounded {
+  border: 1px solid #dadada;
+  box-shadow: 2px 5px 8px -1px rgb(202, 201, 201);
+  .profile-edit {
+    float: right;
+    margin-right: 2rem;
+    border: 1px solid #dadada;
+    color: #adadad;
+    border-radius: 2px;
+    padding: 0 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: #dadada;
+      color: black;
+    }
+  }
+}
+.detailUser {
+  display: flex;
+  .detailUser__info {
+    h3 {
+      color: #5c8759;
+    }
+  }
+}

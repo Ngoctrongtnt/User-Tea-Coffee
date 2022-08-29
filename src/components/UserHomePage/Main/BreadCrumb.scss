@@ -1,0 +1,17 @@
+.breadcrumb {
+  background-color: unset;
+  .breadcrumb-item {
+    color: #4a8d54;
+    a {
+      color: black;
+    }
+    a:hover {
+      color: #4a8d 54;
+    }
+  }
+  span {
+    margin: 3px 5px 0 5px;
+    font-size: 12px;
+    color: black;
+  }
+}

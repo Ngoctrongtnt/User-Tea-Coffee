@@ -1,0 +1,23 @@
+.bannerTop {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+  }
+}
+.table-container {
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}

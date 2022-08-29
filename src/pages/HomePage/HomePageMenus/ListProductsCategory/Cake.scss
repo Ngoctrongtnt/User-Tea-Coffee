@@ -1,0 +1,11 @@
+.products-gr {
+  display: flex;
+  .col {
+    .card {
+      border: unset;
+      .card-img {
+        border: 1px solid rgb(238, 232, 232);
+      }
+    }
+  }
+}

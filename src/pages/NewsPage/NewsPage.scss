@@ -1,0 +1,172 @@
+.newspage {
+  .container {
+    .row {
+      margin: 70px 0 50px 0;
+      .newspage-left {
+        width: 400px;
+        .newspage-left-big {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 30px;
+          .card {
+            border: unset;
+            overflow: hidden;
+            .text-upper {
+              text-transform: uppercase;
+            }
+            img {
+              width: 100%;
+              transition: all 0.5s ease-in-out;
+            }
+            img:hover {
+              transform: scale(1.05);
+            }
+            .card-body {
+              padding: unset;
+              .card-text {
+                margin: 10px 0 0 0;
+              }
+              .card-text:hover {
+                color: #4d8a54;
+              }
+            }
+          }
+        }
+        .newspage-left-small {
+          margin: 50px 0 50px 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 30px;
+          .card {
+            border: unset;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            height: 150px;
+            .text-upper {
+              text-transform: uppercase;
+            }
+            .card-body {
+              .card-text {
+                margin: 20px 0 0 10px;
+              }
+            }
+            img {
+              height: 100%;
+              transition: all 0.5s ease-in-out;
+            }
+            img:hover {
+              transform: scale(1.05);
+            }
+            .card-body {
+              .card-text {
+                margin: 0 0 0 5px;
+                .text-title:hover {
+                  color: #4d8a54;
+                }
+              }
+            }
+          }
+        }
+      }
+      .newspage-right {
+        .menu1 {
+          #main-menu {
+            margin-bottom: 3px;
+            li {
+              list-style: none;
+              position: relative;
+              i {
+                font-size: 15px;
+              }
+              a {
+                text-decoration: none;
+                display: block;
+                padding: 5px 0;
+                font-size: 18px;
+                color: black;
+                font-weight: 500;
+              }
+            }
+            li:hover > a {
+              color: #5c8759;
+            }
+            li:hover > ul.sub-menu {
+              visibility: visible;
+              opacity: 1;
+            }
+            ul.sub-menu {
+              margin-top: 3px;
+              position: absolute;
+              background-color: white;
+              width: 180px;
+              visibility: hidden;
+              opacity: 0;
+              transition: 0.8s;
+              z-index: 1;
+              border: 1px solid #ebe9e9;
+              a {
+                padding: 10px 15px;
+                left: 0;
+                border-bottom: 1px solid #dadada;
+              }
+              ul.sub-menu {
+                left: 201px;
+                top: -1px;
+              }
+            }
+            .sub-menu > li.hash-child::after {
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              padding: 14px 10px 14px 0;
+              color: white;
+            }
+          }
+          #main-menu > li.hash-child::after {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f0d7";
+            position: absolute;
+            top: -12px;
+            right: 0px;
+            padding: 22px 0;
+          }
+        }
+        .menu-title {
+          padding: 20px 0 0 0;
+        }
+        .menu-title-line {
+          border-bottom: 3px solid #4d8a54;
+        }
+        .btn-success {
+          background-color: #4d8a54;
+          width: 100px;
+          text-align: center;
+          align-items: center;
+          border-radius: 20px;
+          margin: 0 0 10px 60px;
+        }
+        .news-about,
+        .news-image {
+          margin: 30px 0 0 0;
+        }
+        .news-hinhanh-content {
+          width: 72px;
+          margin: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .newspage-right {
+    display: none !important;
+  }
+  .col-md-9 {
+    max-width: 100% !important;
+  }
+}

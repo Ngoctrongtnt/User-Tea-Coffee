@@ -1,0 +1,109 @@
+.container {
+  .row {
+    display: flex;
+    justify-content: center;
+    .form-register {
+      margin: 6rem 0;
+      padding: 2rem 5rem;
+      box-shadow: 0px 5px 15px rgb(226, 223, 223);
+      .register__header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .register__form {
+        button {
+          width: 100%;
+          padding: 5px 0;
+          margin-top: 0.5rem;
+          border: none;
+          outline: none;
+          background-color: #5c8759;
+          color: white;
+          font-size: 17px;
+          border-radius: 3px;
+          &:hover {
+            background-color: #527a50;
+          }
+        }
+      }
+      .register__footer {
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+          margin: 0 3px;
+          padding: 10px 15px;
+          border: none;
+          outline: none;
+          color: white;
+
+          span {
+            margin: 0 13px;
+          }
+          i {
+            border-right: 1px solid white;
+            padding-right: 10px;
+          }
+        }
+        .btn-facebook {
+          background-color: #415993;
+          &:hover {
+            background-color: #324b80;
+          }
+        }
+        .btn-google {
+          background-color: #d1553e;
+          &:hover {
+            background-color: #c04b37;
+          }
+        }
+        .icon-login {
+          margin-top: 10px;
+          display: none;
+          i {
+            font-size: 25px;
+            background-color: #fff;
+            color: white;
+            border-radius: 50%;
+            margin: 0 10px;
+          }
+          .facebook {
+            padding: 10px 16px;
+            background-color: #415993;
+          }
+          .google {
+            padding: 10px;
+            background-color: #d1553e;
+          }
+        }
+      }
+    }
+  }
+}
+.ant-input:focus,
+.ant-input-number:focus {
+  border-color: #5c8759 !important;
+  box-shadow: unset;
+}
+.ant-input:hover,
+.ant-input-number:hover {
+  border-color: #5c8759 !important;
+}
+.ant-input-affix-wrapper:focus {
+  border-color: #5c8759 !important;
+  box-shadow: unset !important;
+}
+.ant-input-affix-wrapper:hover {
+  border-color: #5c8759 !important;
+  box-shadow: unset !important;
+}
+@media (max-width: 992px) {
+  .register__footer--btn {
+    display: none;
+  }
+  .icon-login {
+    display: block !important;
+  }
+}

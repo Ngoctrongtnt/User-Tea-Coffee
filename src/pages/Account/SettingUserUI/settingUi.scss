@@ -1,0 +1,37 @@
+.setting {
+  margin: 3rem 0;
+  &__detail {
+    h2 {
+      margin-bottom: 2rem;
+    }
+    p {
+      span {
+        font-weight: bold;
+      }
+    }
+    .edit-profile {
+      border: 1px solid #dadada;
+      padding: 3px 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: #dadada;
+      }
+    }
+  }
+}
+.rounded {
+  border: 1px solid #dadada;
+  .profile-edit {
+    float: right;
+    margin-right: 2rem;
+    border: 1px solid #dadada;
+    color: #adadad;
+    border-radius: 2px;
+    padding: 0 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: #dadada;
+      color: black;
+    }
+  }
+}

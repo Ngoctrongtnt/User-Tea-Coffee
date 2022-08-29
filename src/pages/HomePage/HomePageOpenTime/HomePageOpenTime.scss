@@ -1,0 +1,72 @@
+.home-page-open-time {
+  .container {
+    .row {
+      .left {
+        padding: 4.5rem;
+        background-color: #4d8a54;
+        color: #fff;
+        .left-module {
+          color: #fff;
+          .module-title {
+            h2 {
+              color: #fff;
+            }
+          }
+          .module-content {
+            display: flex;
+            flex-direction: column;
+            span {
+              font-size: 18px;
+              font-weight: 600;
+            }
+            .book {
+              margin: 25px 0 0 0;
+              width: 150px;
+              height: 45px;
+              color: #4d8a54;
+              font-size: 16px;
+              font-weight: bold;
+              border: 1px solid transparent;
+              border-radius: 30px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+      .bg_right {
+        background-image: url(../../../assets/images/homepage/banner_time_open.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 420px;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .left-module {
+    .module-title {
+      h2 {
+        font-size: 26px;
+      }
+    }
+    .module-content {
+      span {
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .left {
+    padding: 3em !important;
+  }
+  .left-module {
+    .module-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.contacts {
+  .container {
+    .contacts-flex {
+      display: flex;
+      margin: 70px 0 50px 0;
+      justify-content: space-between;
+      .contacts-gmap {
+        border: 1px solid black;
+        .googlemaps {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .contacts-form {
+      .contacts-info {
+        a {
+          text-decoration: none;
+          color: black;
+          &:hover {
+            color: #4d8a54;
+          }
+        }
+        .info-title {
+          font-weight: bold;
+          padding: 0 10px;
+        }
+        .info-flex {
+          display: flex;
+          padding: 10px 0;
+          font-size: 16px;
+        }
+        .info-icon {
+          margin: 2px 0 0 0;
+          font-size: 20px;
+          color: #4d8a54;
+        }
+      }
+      .form-checkout-btn {
+        width: 200px;
+        font-size: 17px;
+        border: none;
+        outline: none;
+        background-color: #5c8759;
+        color: white;
+        padding: 4px 0;
+        border-radius: 20px;
+        &:hover {
+          background-color: #496b46;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+}

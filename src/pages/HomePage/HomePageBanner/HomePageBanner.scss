@@ -1,0 +1,75 @@
+.banner {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+  .banner-container {
+    position: relative;
+    .banner-content {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      .banner-title {
+        color: rgb(48, 114, 44);
+        font-family: "Brush Script MT";
+        max-width: 80%;
+        font-size: 4rem;
+      }
+      .banner-des {
+        color: rgb(35, 141, 47);
+        font-size: 110%;
+        max-width: 80%;
+      }
+    }
+    h3 {
+      width: 100%;
+      height: 50%;
+      img {
+        width: 100%;
+        height: 600px;
+      }
+    }
+  }
+}
+.slick-dots li button:before {
+  color: #4d8a54 !important;
+}
+@media (max-width: 768px) {
+  h3 {
+    width: 100%;
+    height: 50%;
+    img {
+      width: 100%;
+      height: 400px !important;
+    }
+  }
+  .banner-title {
+    color: rgb(48, 114, 44);
+    font-family: "Brush Script MT";
+    max-width: 80%;
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 414px) {
+  h3 {
+    width: 100%;
+    height: 50%;
+    img {
+      width: 100%;
+      height: 300px !important;
+    }
+  }
+  .banner-title {
+    max-width: 80%;
+    font-size: 25px !important;
+  }
+  .banner-des {
+    font-size: 12px !important;
+  }
+  .banner-content {
+    top: 10% !important;
+  }
+}

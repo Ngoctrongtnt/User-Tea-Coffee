@@ -1,0 +1,160 @@
+.navbar {
+  background-color: #fff;
+  .navbar-toggle {
+    i {
+      font-size: 20px;
+      padding: 5px 8px;
+      border: 1px solid #adadad;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    margin: 10px 10px;
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  width: 180px;
+  height: 40px;
+  margin: 10px 0;
+  margin-left: 20px;
+  padding: unset;
+  a {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 1rem;
+  p {
+    color: black;
+    margin-top: 0.75rem;
+    font-weight: bold;
+  }
+  .fullname {
+    font-weight: 600;
+    color: #307df6;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #dadada;
+    &:hover {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .ant-popover-title {
+    color: #adadad;
+  }
+  .notification {
+    display: flex;
+    .ant-popover-content {
+      width: 250px;
+    }
+    .ant-badge {
+      margin-right: 1.25rem;
+    }
+    i {
+      font-size: 20px;
+      &:hover {
+        cursor: pointer;
+        color: #307df6;
+      }
+    }
+  }
+}
+.ant-popover-inner-content {
+  max-height: 300px;
+  overflow: scroll;
+  overflow-x: unset;
+}
+
+.ant-popover-inner-content {
+  .logout {
+    margin-bottom: unset;
+    font-weight: 600;
+    &:hover {
+      color: #307df6;
+      cursor: pointer;
+    }
+  }
+  a {
+    p {
+      color: black;
+      &:hover {
+        color: #307df6;
+      }
+    }
+  }
+}
+.ant-popover-inner {
+  .ant-popover-title {
+    .profile-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .profile-role {
+        color: #adadad;
+      }
+    }
+  }
+}
+.createAt {
+  span {
+    font-weight: unset !important;
+    color: #adadad;
+    font-size: 12px;
+  }
+}
+
+.neworders {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 3px;
+  flex-direction: column;
+  span {
+    font-weight: 700;
+  }
+}
+.newComments {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 5px;
+  span {
+    font-weight: 700;
+  }
+  .username {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block !important;
+  }
+}
+@media (max-width: 650px) {
+  .navbar-toggle {
+    display: block;
+  }
+}
+@media (max-width: 414px) {
+  .notification {
+    display: none !important;
+  }
+}

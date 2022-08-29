@@ -1,0 +1,123 @@
+.detaiProduct-container {
+  margin-bottom: 3rem;
+  .detail-row {
+    margin: 2.5rem 0;
+    .detai-img {
+      border: 1px solid #dadada;
+      margin-right: 2rem;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .detail-info {
+      h4 {
+        color: #5c8759;
+      }
+      .price {
+        font-weight: bold;
+        margin: 1.5rem 0;
+        span {
+          font-size: 20px;
+          margin-left: 1rem;
+          color: red;
+        }
+      }
+      .description {
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        span {
+          font-weight: normal;
+          margin-left: 1rem;
+        }
+      }
+    }
+    .detail-rate {
+      margin-bottom: 2rem;
+    }
+    .detail-btn {
+      button {
+        background-color: #f5fff5;
+        color: #5c8759;
+        padding: 5px 30px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 1px solid #5c8759;
+        &:hover {
+          background-color: #5c8759;
+          color: white;
+        }
+      }
+    }
+  }
+  .detail-comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    .ant-input {
+      height: 100px;
+      border-radius: 10px;
+    }
+    .ant-input:hover {
+      border-color: #5c8759;
+    }
+    .ant-input:focus {
+      border-color: #5c8759;
+      box-shadow: unset;
+    }
+    .form-button {
+      background-color: #5c8759;
+      color: white;
+      border: none;
+      outline: none;
+      width: 100px;
+      padding: 5px 0;
+      border-radius: 10px;
+      &:hover {
+        background-color: #40613e;
+      }
+    }
+  }
+  .content-comment {
+    min-height: 200px;
+    .comment {
+      border-bottom: 1px solid #dadada;
+      display: flex;
+      margin-top: 1.5rem;
+      .comment-img {
+        width: 70px;
+        height: 70px;
+        margin-right: 1.5rem;
+        img {
+          width: 100%;
+        }
+      }
+      .comment-infor {
+        .comment-user {
+          display: flex;
+          p {
+            font-weight: 600;
+            margin-top: 5px;
+          }
+          span {
+            font-size: 15px;
+          }
+        }
+        .timeAt {
+          color: #adadad;
+        }
+      }
+    }
+  }
+  .related-products {
+    margin: 4rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .related-products {
+    display: none;
+  }
+}

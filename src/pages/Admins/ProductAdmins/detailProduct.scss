@@ -1,0 +1,44 @@
+.detailProduct {
+  &__images {
+    border: 1px solid #dadada;
+    img {
+      width: 100%;
+      height: 25rem;
+    }
+  }
+  &__info {
+    margin-left: 2.5rem;
+    h5 {
+      color: #307df6;
+      padding-bottom: 1.5rem;
+    }
+    &--price {
+      font-weight: bold;
+      span {
+        color: orangered;
+        font-size: 1.25rem;
+        margin-left: 1rem;
+      }
+    }
+    .ant-tabs-tab-btn {
+      font-size: 1.25rem;
+      &:hover {
+        color: #307df6;
+      }
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: #307df6;
+    }
+  }
+}
+span.back-admin-user {
+  border: 1px solid #10688a;
+  color: #10688a;
+  padding: 3px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #10688a;
+    color: white;
+  }
+}

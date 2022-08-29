@@ -1,0 +1,33 @@
+.formSearch-top-icon {
+  float: right;
+  border-radius: 20px;
+  background-color: white;
+  height: 2rem;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.2s;
+  border: 1px solid #dadada;
+  input {
+    width: 90%;
+    margin-left: 3px;
+    padding-left: 15px;
+    border: none;
+    color: black;
+    outline: none;
+    transition: 0.5s;
+  }
+  button {
+    border: none;
+    outline: none;
+    background: white;
+    i {
+      float: right;
+      color: #4d8a54;
+      font-size: 1.25rem;
+      padding: 5px 6px;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.container-fluid {
+  .row {
+    .list-box {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 20px;
+      .small-box {
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px -2px rgb(184, 183, 183);
+        .inner {
+          margin: 1em 2em;
+          h3 {
+            color: rgb(92, 91, 91);
+            font-weight: bold;
+            font-size: 35px;
+            margin-bottom: 0px;
+          }
+          p {
+            color: rgb(92, 91, 91);
+            font-weight: 600;
+          }
+        }
+        .icon {
+          float: right;
+          font-size: 2rem;
+          margin-right: 2.5rem;
+          margin-top: 1rem;
+          color: rgba(0, 0, 0, 0.2);
+          i:hover {
+            cursor: pointer;
+          }
+        }
+        a {
+          display: block;
+          color: rgb(92, 91, 91);
+          text-decoration: none;
+          padding: 0.25rem 1rem;
+          &:hover {
+            background-color: rgba(150, 148, 148, 0.4);
+          }
+        }
+      }
+    }
+    .linechart,
+    .calendar,
+    .piechart,
+    .product-store,
+    .user-comment,
+    .info-user {
+      box-shadow: 3px 3px 10px -2px rgb(184, 183, 183);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .col-12 {
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .list-box {
+    display: grid;
+    grid-template-columns: auto !important;
+  }
+}

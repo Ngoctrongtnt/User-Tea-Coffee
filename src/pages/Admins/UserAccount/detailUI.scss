@@ -1,0 +1,31 @@
+.detailUserUI {
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  display: flex;
+  padding: unset;
+  box-shadow: 2px 4px 13px #adadad;
+  margin-top: 1rem;
+  .detailUser__avatar {
+    width: 250px;
+    border-right: 1px solid #adadad;
+    padding: 0.5rem;
+    img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .detailUser__info {
+    padding: 0.5rem 1rem;
+  }
+}
+span.back-admin-user {
+  border: 1px solid #10688a;
+  color: #10688a;
+  padding: 3px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #10688a;
+    color: white;
+  }
+}

@@ -1,0 +1,92 @@
+.checkout {
+  min-height: 700px;
+  .btn-checkout {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    .form-checkout-btn {
+      width: 100px;
+      border: none;
+      outline: none;
+      background-color: #5c8759;
+      color: white;
+      padding: 4px 0;
+      border-radius: 10px;
+      margin-top: 2rem;
+      margin-left: -5rem;
+      &:hover {
+        background-color: #496b46;
+      }
+    }
+  }
+
+  h5 {
+    padding-bottom: 1rem;
+  }
+  p {
+    font-weight: bold;
+  }
+  .checkout-order {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #adadad;
+    padding: 1rem 0;
+
+    .product-cart {
+      display: flex;
+      .cart-img {
+        margin-right: 1.5rem;
+        .ant-badge {
+          border: 1px solid #dadada;
+          border-radius: 5px;
+          .ant-badge-count {
+            font-size: 16px;
+            background-color: #5c8759;
+          }
+        }
+      }
+    }
+  }
+  .product-money {
+    border-bottom: 1px solid #adadad;
+    padding: 1rem 0;
+
+    .provisional {
+      display: flex;
+      justify-content: space-between;
+    }
+    .fee {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .product-totalprice {
+    border-bottom: 1px solid #adadad;
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 18px;
+    }
+    .totalprice {
+      font-size: 18px;
+      color: #5c8759;
+    }
+  }
+  .ant-input:focus,
+  .ant-input-number:focus {
+    border-color: #5c8759 !important;
+    box-shadow: unset;
+  }
+  .ant-input:hover,
+  .ant-input-number:hover {
+    border-color: #5c8759 !important;
+  }
+}
+.payments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.productModal {
+  display: flex;
+  &__img {
+    margin-right: 2rem;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  &__content {
+    margin-top: 1rem;
+    &--name {
+      color: #5c8759;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    &--price {
+      color: #d1553e;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+  }
+}
+.ant-modal-content {
+  border-radius: 15px;
+}

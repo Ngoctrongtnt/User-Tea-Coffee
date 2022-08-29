@@ -1,0 +1,26 @@
+.intropage {
+  .container {
+    nav {
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: none;
+      }
+      .breadcrumb-item {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        a:active {
+          color: #4d8a54;
+        }
+        a:hover {
+          color: #4d8a54;
+        }
+      }
+    }
+    .row {
+      p {
+        margin: 90px 0 50px 0;
+      }
+    }
+  }
+}

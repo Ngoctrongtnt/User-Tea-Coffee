@@ -1,0 +1,22 @@
+.panigation-wrapper {
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  button {
+    margin: 5px;
+    border: 1px solid #adadad;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    &:hover {
+      background-color: #679764;
+      color: white;
+    }
+  }
+  .btn--active {
+    color: white;
+    font-weight: bold;
+    background-color: #679764;
+  }
+}

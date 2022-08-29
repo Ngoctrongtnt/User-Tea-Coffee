@@ -1,0 +1,121 @@
+.why {
+  width: 100%;
+  height: 700px;
+  background-color: #333;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/images/homepage/bg_why.jpg");
+  .container {
+    .row {
+      display: flex;
+      .why-left {
+        .why-desc {
+          font-size: 18px;
+        }
+        padding: 80px 0 100px 0;
+        .why-title-item {
+          .col-item-srv {
+            margin: 20px 0;
+            .service-item-ed {
+              display: flex;
+              .why-item-icon {
+                padding: 0 20px 0 0;
+              }
+              .why-item-content {
+                .content-title {
+                  font-size: 24px;
+                  font-weight: 600;
+                }
+                .content-desc {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  .why {
+    width: 100%;
+    height: 400px;
+    padding: 0 10px;
+    .why-left {
+      .why-title-header {
+        h1 {
+          font-size: 18px !important;
+        }
+        .why-desc {
+          display: none !important;
+        }
+      }
+      .why-title-item {
+        .col-item-srv {
+          margin: 20px 0;
+          .service-item-ed {
+            display: flex;
+            .why-item-icon {
+              padding: 0 20px 0 0;
+              img {
+                width: 20px;
+              }
+            }
+            .why-item-content {
+              .content-title {
+                font-size: 13px !important;
+                font-weight: 600;
+              }
+              .content-desc {
+                font-size: 10px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .why {
+    width: 100%;
+    height: 500px;
+    padding: 0 30px;
+    .why-left {
+      .why-title-header {
+        h1 {
+          font-size: 25px;
+        }
+        .why-desc {
+          font-size: 14px !important;
+        }
+      }
+      .why-title-item {
+        .col-item-srv {
+          margin: 20px 0;
+          .service-item-ed {
+            display: flex;
+            .why-item-icon {
+              padding: 0 20px 0 0;
+              img {
+                width: 35px;
+              }
+            }
+            .why-item-content {
+              .content-title {
+                font-size: 15px !important;
+                font-weight: 600;
+              }
+              .content-desc {
+                font-size: 12px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
